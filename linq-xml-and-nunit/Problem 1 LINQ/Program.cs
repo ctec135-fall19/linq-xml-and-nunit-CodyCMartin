@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*Author: Cody Martin
+ Class: CTEC 135 Week 5
+ Task: Programming Assignment 5
+
+ This program uses LINQ to query an array made in main. It also 
+ shows alterations being made to the array and reusing the original query 
+ to print out the changes.
+ 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -54,7 +64,7 @@ namespace Problem_1_LINQ
             }
             Console.WriteLine();
 
-            //changing the array again
+            //changing the array again by index
 
             strArray[0] = "Chip";
             strArray[1] = "Frank";
@@ -71,7 +81,7 @@ namespace Problem_1_LINQ
 
                                             
 
-            // Creating method imemediate execution and returns results to main
+            // Creating method immediate execution and returns results to main
 
             List<string> QueryOverStrings(string[] inputArray)
             {
